@@ -17,8 +17,7 @@ module.exports = {
     },
 
     entry: {
-        app: PATHS.src,
-        app2: `${PATHS.src}js/app2/app2.js`
+        app: PATHS.src
 
     },
 
