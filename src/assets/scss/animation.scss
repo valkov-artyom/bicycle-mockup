@@ -1,0 +1,10 @@
+.item {
+  &__logo {
+    background-color: rgba(100, 194, 158, 0.5);
+    opacity: 0;
+    transition: 0.5s;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
