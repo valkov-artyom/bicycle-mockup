@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/valkov-artyom/webpack-template.git"
+    "url": "git+https://github.com/valkov-artyom/bicycle-mockup.git"
   },
   "bugs": {
-    "url": "https://github.com/vedees/webpack-template/issues"
+    "url": "https://github.com/vedees/bicycle-mockup/issues"
   },
   "browserslist": [
     "> 1%",
     "last 3 version"
   ],
   "keywords": [],
-  "author": "",
+  "author": "Artem Valkov <valkov.artyom@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.8.4",
