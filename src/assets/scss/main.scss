@@ -183,9 +183,18 @@
     top: 0;
     left: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     z-index: 3;
+    span {
+      margin: 10px 0 0 0;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2.8px;
+    }
   }
 
   &__image {
@@ -222,7 +231,6 @@
     color: #353738;
     span {
       color: #848789;
-      font-family: "Lato Light";
       font-weight: 300;
       letter-spacing: 1.8px;
     }
@@ -253,5 +261,65 @@
       display: inline-block;
     }
   }
+}
 
+.shop {
+  .shop__body {
+    display: flex;
+  }
+  .shop__column {
+    flex: 0 1 16.666%;
+
+
+    }
+  .shop__column_b {
+    flex: 0 1 33.333%;
+  }
+
+  .shop__block {
+
+  }
+  .shop__footer {
+
+  }
+
+  .shop__btn {
+
+  }
+  @media (max-width: 1100px) {
+    .shop__body {
+    flex-wrap: wrap;
+    }
+    .shop__column {
+      flex: 0 1 50%;
+      &:first-child {
+        flex: 1 1 100%;
+      }
+      &:last-child {
+        flex: 1 1 100%;
+      }
+    }
+  }
+}
+
+.block-shop {
+  height: 100%;
+  .block-shop__row {
+    display: flex;
+  }
+
+  .block-shop__column {
+    flex: 0 1 50%;
+  }
+
+  .block-shop__item {
+    height: auto;
+    padding: 0 0 50% 0;
+  }
+  .block-shop__item_b {
+    padding: 0 0 200% 0;
+  }
+  .block-shop__item_l {
+    padding: 0 0 100% 0;
+  }
 }
