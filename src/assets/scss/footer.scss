@@ -1,0 +1,58 @@
+.footer {
+  background-color: #f7f7f7;
+
+  &__row {
+    display: flex;
+    padding: 100px 10px;
+    align-items: center;
+  }
+
+  &__column {
+    flex: 0 1 33.333%;
+  }
+
+  &__adress {
+    color: #848789;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 17.87px;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &_link {
+      padding: 0 7.5px;
+    }
+  }
+
+
+
+  .by {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    &__text {
+      color: #848789;
+      font-size: 14px;
+      font-style: italic;
+      line-height: 17.87px;
+    }
+    &__icon {
+      padding: 0 0 0 10px;
+    }
+  }
+  @media (max-width: 600px) {
+    &__row {
+      flex-direction: column;
+      text-align: center;
+      padding: 30px;
+    }
+    &__adress, &__social {
+      padding: 0 0 20px 0;
+    }
+
+  }
+}
