@@ -1,3 +1,14 @@
+let menuIcon = document.querySelector('.menu__icon');
+let menuBody = document.querySelector('.menu__body');
+let body = document.querySelector('body');
+
+menuIcon.addEventListener('click', function () {
+    console.log('hi');
+    menuIcon.classList.toggle('active');
+    menuBody.classList.toggle('active');
+    body.classList.toggle('lock')
+});
+
 function ibg(){
 
     let ibg=document.querySelectorAll(".ibg");

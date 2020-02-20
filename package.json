@@ -11,7 +11,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/valkov-artyom/bicycle-mockup.git"
-
   },
   "bugs": {
     "url": "https://github.com/vedees/bicycle-mockup/issues"
@@ -49,6 +48,7 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "normalize.css": "^8.0.1"
   }
 }

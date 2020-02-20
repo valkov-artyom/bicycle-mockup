@@ -1,3 +1,4 @@
+import "../node_modules/normalize.css/normalize.css";
 import './assets/css/main.css';
 import './assets/scss/main.scss';
 import './assets/scss/header.scss';
